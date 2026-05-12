@@ -14,7 +14,7 @@ data/
 ├── processed/                       # Phase 1 outputs (frames, keypoints, splits)
 ├── results/                         # Phase 2/3 prediction outputs and metrics
 ├── coaching_corpus/                 # 16 markdown coaching documents
-└── chroma_db/                       # Phase 4 vector store (created on first run)
+└── chroma_db/                       # Phase 4 vector store
 
 scripts/                             # One-off setup golfdb and verification scripts
 ```

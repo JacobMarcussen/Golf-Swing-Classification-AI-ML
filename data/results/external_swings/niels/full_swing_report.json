@@ -9,22 +9,28 @@
       "true_label": "Address",
       "report": {
         "p_position": "Address",
-        "classifier_confidence": 0.9986377358436584,
+        "classifier_confidence": 0.9997490048408508,
         "overall_assessment": "notable_issues",
-        "summary": "This frame is Address. The most important issue is a pronounced shoulder-line misalignment: the trail (right) shoulder is far outside the pro range at setup. Spine tilt is unusually upright (mild) but not flagged as a primary fault here\u2014focus on correcting the shoulder line first.",
+        "summary": "Classifier strongly identifies this frame as Address. The setup shows a reverse spine tilt (spine leaning toward the target) with the trail shoulder higher than the lead shoulder \u2014 both notable deviations from typical pro driver setup and likely to promote a downward/inside strike on a tee'd driver.",
         "key_deviations": [
           {
+            "metric": "spine_angle_from_vertical",
+            "observed_value": -6.2,
+            "typical_range": "23.7-30.3\u00b0",
+            "severity": "notable",
+            "explanation": "Negative value indicates the spine is tilting toward the target (reverse spine tilt) rather than the recommended tilt away from the target for a driver."
+          },
+          {
             "metric": "right_shoulder",
-            "observed_value": 0.6,
+            "observed_value": 6.4,
             "typical_range": "31.0-38.4\u00b0",
             "severity": "notable",
-            "explanation": "Right (trail) shoulder angle is much lower than the pro typical range, indicating the shoulder line at address is mis-set (open/closed shoulder line) rather than parallel to the target."
+            "explanation": "Trail (right) shoulder is outside the pro range and is higher relative to the lead shoulder, which matches the 'trail shoulder higher than lead shoulder' detection signal for reverse spine tilt."
           }
         ],
         "coaching_recommendations": [
-          "Check and square your shoulder line at address: lay a club on the ground parallel to the target line and align your shoulders to that reference before every swing (from 'Open or closed shoulder line').",
-          "Set the desired shoulder tilt using a club across the shoulders and verify in a mirror or video so the lead shoulder is slightly higher than the trail shoulder (aim for a small tilt away from the target, roughly 5\u201310\u00b0) \u2014 this helps preset the correct plane for a driver setup (from 'Reverse spine tilt (leaning toward target)').",
-          "Practice setup drills to ingrain alignment: address to a chair or wall so your shoulder line and hip line are parallel to the target (from 'Open or closed shoulder line')."
+          "Create a slight tilt away from the target at address: raise the lead shoulder so the lead shoulder sits about 5\u201310\u00b0 higher than the trail shoulder (pre-sets an upward driver strike). Drill: hold a club along the shoulders and check the angle in a mirror or video \u2014 aim for that small tilt away from the target.",
+          "Check and correct shoulder alignment: lay a club on the ground parallel to the target line and ensure the shoulder line is parallel to that reference. Drill: practice setting up to a wall or chair so the lead shoulder does not extend farther forward than the trail shoulder."
         ],
         "sources_used": [
           "p1_address_faults.md"
@@ -37,30 +43,29 @@
       "true_label": "Toe-up",
       "report": {
         "p_position": "Toe-up",
-        "classifier_confidence": 0.7560990452766418,
+        "classifier_confidence": 0.9031071066856384,
         "overall_assessment": "notable_issues",
-        "summary": "At Toe-up the frame shows a strongly open clubface (shaft estimated from the lead\u2011arm proxy) and unusually large shoulder rotation compared with typical pro ranges. The right-shoulder offset noted at Address appears to carry into this position and may be contributing to the face/path pattern observed.",
+        "summary": "Frame is classified as Toe-up with high confidence. There is a notable loss of spine angle (more upright than expected) that appears to continue from the Address position, and the shoulder line is high/rotated in a way that commonly accompanies an open clubface at toe-up (shaft/face inference estimated from lead-arm pose).",
         "key_deviations": [
           {
-            "metric": "shaft_proxy_angle",
-            "observed_value": 159.0,
-            "typical_range": "88.3-105.9\u00b0",
+            "metric": "spine_angle_from_vertical",
+            "observed_value": -9.8,
+            "typical_range": "22.5-29.1\u00b0",
             "severity": "notable",
-            "explanation": "Estimated from the lead-arm proxy (proxy_confidence 0.63): the clubface appears markedly open at toe-up (toe pointing skyward). This commonly arises from insufficient forearm rotation or a weak grip and can produce a pushed or sliced ball flight."
+            "explanation": "Upper body has straightened (loss of forward bend) relative to typical pros at Toe-up \u2014 indicates early loss of posture during the backswing."
           },
           {
-            "metric": "right_shoulder",
-            "observed_value": 46.3,
-            "typical_range": "10.8-24.2\u00b0",
+            "metric": "shoulder_line_from_horizontal",
+            "observed_value": 175.0,
+            "typical_range": "-160.7 to -147.2\u00b0",
             "severity": "notable",
-            "explanation": "Right shoulder rotation/position is much greater than typical pros at this position. This matches the earlier notable right_shoulder offset at Address and suggests the setup alignment is propagating into the backswing, which can be associated with face and path faults."
+            "explanation": "Left shoulder appears higher/rotated than typical at Toe-up; this geometry often accompanies an open clubface when the shaft is horizontal (shaft/face estimate from lead-arm proxy)."
           }
         ],
         "coaching_recommendations": [
-          "If the face is truly open (shaft estimate above), allow the forearms to rotate naturally with the body turn rather than forcing the club \u2014 aim for a neutral grip and a one\u2011piece takeaway (shoulders, arms and club move together) as you start the backswing (from p2_toeup_faults.md).",
-          "Practice the toe\u2011up checkpoint: make slow takeaways and stop at P2, checking that the leading edge is within ~15\u00b0 of vertical. Use a mirror or video to confirm \u2014 if you can\u2019t confirm visually, use the following drill (from p2_toeup_faults.md).",
-          "Use the alignment\u2011rod drill to prevent an inside takeaway: place a rod along the target line and practice sweeping the clubhead along the rod for the first ~18 inches so the club doesn\u2019t pull too far inside early (from p2_toeup_faults.md).",
-          "Drill option: slow\u2011motion takeaways with eyes closed, stopping at P2 to feel the correct shoulder/arm relationship and toe angle; then open your eyes to check the clubface in a mirror (from p2_toeup_faults.md)."
+          "Maintain hip flexion and \"stay in your posture\" through the backswing \u2014 cue: keep your belt buckle pointed at the ball. Drill: make controlled half-swings with an alignment stick or foam noodle pressed between your back and a wall; losing contact signals loss of spine angle (from 'Early loss of spine angle').",
+          "Allow natural forearm rotation with a neutral grip and a one-piece takeaway to prevent the face fanning open. Drill: practice arriving at Toe-up and check the leading edge \u2014 aim for the leading edge to be within ~15\u00b0 of vertical (from 'Open clubface at toe-up').",
+          "Because the clubface/shaft angle here is estimated from the lead-arm proxy (confidence ~0.63), verify clubface orientation visually: check the toe/leading edge at P2 in a mirror or slow-motion video to confirm whether the face is open and use the toe-up drill above to train the correct feel (from 'Open clubface at toe-up')."
         ],
         "sources_used": [
           "p2_toeup_faults.md"
@@ -72,33 +77,26 @@
       "frame_filename": "external_clip99999_event3.jpg",
       "true_label": "Mid-backswing",
       "report": {
-        "p_position": "Mid-downswing",
-        "classifier_confidence": 0.4106357991695404,
+        "p_position": "Finish",
+        "classifier_confidence": 0.8414133191108704,
         "overall_assessment": "notable_issues",
-        "summary": "Classifier confidence is low (0.41), so treat the position label as tentative. The frame shows large shoulder angles and an atypical lead-hip angle at mid-downswing, consistent with an over\u2011the\u2011top / blocked-hip pattern; shaft direction is estimated from the lead-arm pose (proxy_confidence 0.42) and should be hedged. Earlier right-shoulder deviations at Address/Toe-up may be linked to the current shoulder/rotation sequencing issues.",
+        "summary": "The frame at Finish shows a notable mismatch in spine angle compared with pro norms: the torso is tipped in the opposite direction of typical pro finishes and the value is more extreme than the earlier Address and Toe-up findings, suggesting this posture pattern carried through the swing. Shoulders and hips are within typical ranges, so the primary concern is the spine/rotation pattern rather than hip rotation or obvious shoulder tilt.",
         "key_deviations": [
           {
-            "metric": "left_shoulder",
-            "observed_value": 75.2,
-            "typical_range": "9.0-28.7\u00b0",
+            "metric": "spine_angle_from_vertical",
+            "observed_value": -13.4,
+            "typical_range": "10.5-17.2\u00b0",
             "severity": "notable",
-            "explanation": "Markedly elevated/rotated left shoulder compared with pro range \u2014 commonly indicates the shoulders are opening/throwing early and can drive an outside\u2011in (over\u2011the\u2011top) club path."
-          },
-          {
-            "metric": "left_hip",
-            "observed_value": 163.3,
-            "typical_range": "125.4-136.4\u00b0",
-            "severity": "notable",
-            "explanation": "Lead-hip angle well outside the pro interquartile range, consistent with insufficient hip clearance or a 'stuck' lead hip that forces the upper body to dominate the downswing."
+            "explanation": "Spine angle is well outside the pro p25\u2013p75 range (more forward/tilted than typical), indicating the torso is not in the rotated/upright finish most pros show. This can allow the arms to finish the swing independently of body rotation (an arms-only finish) and appears connected to the similar negative spine angles noted earlier at Address and Toe-up."
           }
         ],
         "coaching_recommendations": [
-          "Initiate the downswing with the lower body before the arms: feel a small \"bump\" of the lead hip toward the target prior to arm movement. Drill: drop a pool ball behind the trail knee and feel the knee move toward the ball before the arms begin (from p5_middownswing_faults.md).",
-          "Practice clearing the lead hip rather than rotating the shoulders first: cue \"clear the lead hip.\" Drill: place an alignment stick next to the lead hip and practice rotating the hip to touch the stick without sliding toward it (from p5_middownswing_faults.md).",
-          "Preserve lag and avoid casting by feeling the trail elbow lead the hands into the impact zone. Drill: make slow downswings stopping at mid\u2011downswing (P5) to check that the angle between club and lead arm remains acute; use the \"whoosh\" drill for timing feedback (from p5_middownswing_faults.md)."
+          "Turn the body first, arms second \u2014 cue: \u201clead with your chest, not your hands.\u201d (Drill: make full turns with just the torso, no club, then add the arms.)",
+          "Practice no-ball swings focused on reaching a high, balanced finish \u2014 think of the target rather than the ball to avoid decelerating through impact and producing a short/low finish.",
+          "Work on balance and a stable base: slightly widen your stance and practice slow swings holding the finish for three seconds to expose and correct any loss of balance."
         ],
         "sources_used": [
-          "p5_middownswing_faults.md"
+          "p8_finish_faults.md"
         ]
       }
     },
@@ -107,33 +105,33 @@
       "frame_filename": "external_clip99999_event4.jpg",
       "true_label": "Top",
       "report": {
-        "p_position": "Top",
-        "classifier_confidence": 0.9939042925834656,
+        "p_position": "Finish",
+        "classifier_confidence": 0.9392730593681335,
         "overall_assessment": "notable_issues",
-        "summary": "This frame is a confident Top position. The pelvis is notably more open than typical for tour pros (both hips ~171\u2013175\u00b0) while the shoulders and spine remain nearer pro ranges \u2014 this suggests excessive pelvic rotation at the top. That hip openness matches the earlier notable left_hip in the mid-downswing and may be a persistent timing/rotation pattern to address.",
+        "summary": "This frame is classified as Finish (confidence 0.94). Compared with pro norms the torso is notably less rotated and the spine is more upright/extended than typical at the finish \u2014 a pattern consistent with an \"arms-only\" finish. This matches earlier frames (address/toe-up) that already showed reduced spine tilt, suggesting the body never fully rotated through the shot.",
         "key_deviations": [
           {
-            "metric": "left_hip",
-            "observed_value": 170.8,
-            "typical_range": "123.5-138.1\u00b0",
+            "metric": "spine_angle_from_vertical",
+            "observed_value": -11.0,
+            "typical_range": "10.5-17.2\u00b0",
             "severity": "notable",
-            "explanation": "Pelvis/lead-hip rotation is substantially greater than the typical pro range at the top, indicating the hips are more open than usual for this position."
+            "explanation": "Spine is much more upright/extended than the pro range at P8, indicating the golfer has stood up or lost forward tilt through the shot which reduces effective body rotation and can shorten the follow-through."
           },
           {
-            "metric": "right_hip",
-            "observed_value": 174.8,
-            "typical_range": "139.8-153.9\u00b0",
+            "metric": "right_shoulder",
+            "observed_value": 179.4,
+            "typical_range": "32.7-87.8\u00b0",
             "severity": "notable",
-            "explanation": "Trail-hip position is also well outside the pro interquartile range, confirming an overall excessive pelvic rotation/opening at the top."
+            "explanation": "Shoulder angle is far outside the typical pro range, consistent with minimal torso rotation at the finish \u2014 the arms appear to have swung up around a relatively unrotated body (an arms-only finish)."
           }
         ],
         "coaching_recommendations": [
-          "Drill to promote proper hip rotation (not lateral tilt): make slow controlled backswings with a hand resting on the trail hip so you can feel the hip rotate backward rather than the torso tilting \u2014 this is the drill recommended for correcting reverse-spine/hip-rotation patterns (p4_top_faults.md).",
-          "Keep the trail arm connected at the top: practice backswings with a headcover or glove tucked under the trail armpit; if it falls out the trail elbow has separated \u2014 this helps prevent the trail elbow from flying out and supports a more compact, connected top (p4_top_faults.md).",
-          "Limit excessive breadth of the backswing: stop practice backswings when the lead arm reaches parallel to the ground to find a repeatable, controlled top position rather than over-rotating the pelvis (overswing drill in p4_top_faults.md)."
+          "Turn the body first, arms second \u2014 cue: \u201clead with your chest, not your hands.\u201d Practice slow torso-only rotations (no club) to feel the chest carry the arms, then reintroduce the club.",
+          "Make practice swings with no ball, focusing on reaching a high, balanced finish aimed at the target (think target, not the ball) to discourage a short/arms-only follow-through.",
+          "If balance is unstable, widen your athletic base and perform slow-motion swings holding the finish for 3 seconds until you can consistently maintain a balanced finish."
         ],
         "sources_used": [
-          "p4_top_faults.md"
+          "p8_finish_faults.md"
         ]
       }
     },
@@ -142,33 +140,33 @@
       "frame_filename": "external_clip99999_event5.jpg",
       "true_label": "Mid-downswing",
       "report": {
-        "p_position": "Mid-downswing",
-        "classifier_confidence": 0.8537448048591614,
+        "p_position": "Finish",
+        "classifier_confidence": 0.9990054965019226,
         "overall_assessment": "notable_issues",
-        "summary": "Mid-downswing (confidence 0.85). The frame shows a strongly elevated/externally thrown left shoulder and a marked loss of spine angle (standing up), producing a notable overall fault pattern consistent with an outside\u2011in/over\u2011the\u2011top move plus early extension. Shaft direction is estimated from the lead-arm pose (proxy confidence 0.42) so any shaft-based cues should be treated as tentative; these issues also appear connected to the earlier shoulder/hip irregularities you reported at Top and earlier Mid-downswing.",
+        "summary": "High-confidence classification: Finish. The frame shows a notable lack of body rotation at the finish \u2014 spine tilt is \u22128.1\u00b0 (pros typically 10.5\u201317.2\u00b0) and the shoulders are markedly outside the pro range \u2014 a pattern consistent with an arms-only or short/low finish. These finish deviations are consistent with the earlier spine/shoulder issues at Address and Toe-up, suggesting under-rotation is persisting through the swing.",
         "key_deviations": [
           {
-            "metric": "left_shoulder",
-            "observed_value": 94.9,
-            "typical_range": "9.0-28.7\u00b0",
+            "metric": "spine_angle_from_vertical",
+            "observed_value": -8.1,
+            "typical_range": "10.5-17.2\u00b0",
             "severity": "notable",
-            "explanation": "Left shoulder is much more elevated/externally rotated than typical pros at P5 \u2014 a signature of \"shoulder throwing\" that commonly creates an over\u2011the\u2011top (outside\u2011in) club path."
+            "explanation": "The torso is tilted forward/away from the pro range at the finish, indicating the body has not rotated and extended into the follow-through as expected."
           },
           {
-            "metric": "spine_angle_from_vertical",
-            "observed_value": -23.3,
-            "typical_range": "20.9-27.6\u00b0",
+            "metric": "right_shoulder",
+            "observed_value": 153.5,
+            "typical_range": "32.7-87.8\u00b0",
             "severity": "notable",
-            "explanation": "Spine angle has decreased markedly (the golfer is standing up) compared with pro ranges; this matches the early\u2011extension pattern where the hips thrust toward the ball and the body loses the spine tilt needed to allow a clean arm/club release."
+            "explanation": "The right shoulder angle is well outside the typical pro range, consistent with the arms carrying the club while the torso has under-rotated (an arms-only finish)."
           }
         ],
         "coaching_recommendations": [
-          "Lead the downswing with the lower body: feel a small bump of the lead hip toward the target before the arms move. Drill from the corpus: drop a pool ball behind the trail knee and initiate the downswing by moving the hip toward that ball to promote hip-first sequencing (addresses over\u2011the\u2011top).",
-          "Prevent early extension by rotating the trail hip through rather than thrusting it forward. Cue: \u201crotate around a fixed axis.\u201d Drill from the corpus: make downswings with your back against a wall or chair \u2014 early extension will push into the wall and becomes obvious.",
-          "Preserve wrist lag through P5 so the club isn\u2019t cast early. Drill from the corpus: make slow downswings that stop at P5 and check that the angle between club and lead arm remains acute; use the upside\u2011down \u201cwhoosh\u201d drill for auditory feedback to train delivering speed past the ball, not before it."
+          "Turn the body first, arms second. Cue: \u201clead with your chest, not your hands.\u201d Drill: make full turns using just the torso (no club), then reintroduce the arms so the body carries the arms through the finish (from p8_finish_faults.md: Arms-only finish).",
+          "Practice reaching a high, balanced finish with no ball. Make slow practice swings focusing entirely on wrapping the club high behind the lead shoulder and aiming at the target (not the ball) to reduce deceleration through impact (from p8_finish_faults.md: Short or low finish).",
+          "If balance is a problem, widen your athletic base and practice controlled, slowed swings holding the finish for three seconds. This highlights any instability and builds a repeatable, balanced finish position (from p8_finish_faults.md: Loss of balance at finish)."
         ],
         "sources_used": [
-          "p5_middownswing_faults.md"
+          "p8_finish_faults.md"
         ]
       }
     },
@@ -177,33 +175,33 @@
       "frame_filename": "external_clip99999_event6.jpg",
       "true_label": "Impact",
       "report": {
-        "p_position": "Impact",
-        "classifier_confidence": 0.9967032074928284,
+        "p_position": "Finish",
+        "classifier_confidence": 0.9998255372047424,
         "overall_assessment": "notable_issues",
-        "summary": "Frame classified as Impact (high confidence). The body shows a marked loss of spine angle at impact with the hips pushed toward the ball \u2014 consistent with early extension and insufficient rotation through impact. This appears connected to the earlier hip deviations seen at Top and mid-downswing, suggesting the fault is propagating through the sequence.",
+        "summary": "This frame is a Finish (classifier confidence 99.98%). Two notable deviations stand out: an unusually high left-shoulder angle and a forward-tilted spine compared with typical pro ranges, consistent with an arms-dominant, under-rotated finish. These deviations match a recurring pattern seen earlier in this swing (previous finishes and toe-up showed persistent spine tilt), suggesting the body rotation is not completing and the arms are finishing the swing.",
         "key_deviations": [
           {
-            "metric": "spine_angle_from_vertical",
-            "observed_value": -26.1,
-            "typical_range": "14.6-24.8\u00b0",
+            "metric": "left_shoulder",
+            "observed_value": 150.1,
+            "typical_range": "44.3-83.7\u00b0",
             "severity": "notable",
-            "explanation": "Substantial loss of forward spine tilt at impact (standing up) \u2014 indicates early extension and reduced ability to strike down through the ball."
+            "explanation": "Left shoulder/arm finished much higher relative to pro norms \u2014 indicates the arms have wrapped to a high finish while the torso has not fully rotated (arms-only finish pattern)."
           },
           {
-            "metric": "left_hip",
-            "observed_value": 174.9,
-            "typical_range": "140.0-152.2\u00b0",
+            "metric": "spine_angle_from_vertical",
+            "observed_value": -8.3,
+            "typical_range": "10.5-17.2\u00b0",
             "severity": "notable",
-            "explanation": "Lead hip is thrust toward the ball (over-extended) rather than rotating and shifting \u2014 a common component of early extension and crowding of the arms."
+            "explanation": "Spine tilt remains well outside the pro range (more forward/away from expected finish tilt). Matches earlier frames' notable spine deviations, suggesting limited or incomplete body rotation through the swing."
           }
         ],
         "coaching_recommendations": [
-          "Rotate the hips through rather than thrusting toward the ball \u2014 cue: \u201cbelt buckle turns to face the target, not the ball.\u201d (From: p6_impact_faults.md \u2014 Early extension)",
-          "Drill: practice downswing repetitions with the trail hip lightly against a wall behind you; any forward thrust will contact the wall and give immediate feedback, helping you feel rotation instead of thrust. (From: p6_impact_faults.md \u2014 Early extension)",
-          "Drill to improve weight transfer: step-through finish (make impact with trail foot lifted in practice) to force lead-side weight at impact. If you also sense a backward shaft lean/scooping (shaft direction here is estimated from lead-arm pose), rehearse punch shots with the feel of the handle leading the clubhead or use an impact bag to train hands-ahead impact. (From: p6_impact_faults.md \u2014 Reverse pivot / Scooping)"
+          "Address the arms-dominant finish: \"Lead with your chest, not your hands.\" Practice making full torso-only rotations (no club) to ingrain the feeling that the body drives the arms \u2014 then add the club and let the torso carry the arms through to the finish. (source: p8_finish_faults.md)",
+          "Rehearse reaching a high, balanced finish: take slow practice swings without a ball, focusing on a full, wrapped finish behind the lead shoulder and holding the finish for 2\u20133 seconds. Progress to swings at 70\u201380% speed while maintaining that finish to avoid deceleration through impact. (source: p8_finish_faults.md)",
+          "If balance is a concern, widen and stabilize your athletic base at address and practice controlled swings until you can consistently hold the finish \u2014 this reduces the tendency to let the arms 'save' the swing and forces the body to rotate. (source: p8_finish_faults.md)"
         ],
         "sources_used": [
-          "p6_impact_faults.md"
+          "p8_finish_faults.md"
         ]
       }
     },
@@ -212,33 +210,33 @@
       "frame_filename": "external_clip99999_event7.jpg",
       "true_label": "Mid-followthrough",
       "report": {
-        "p_position": "Mid-followthrough",
-        "classifier_confidence": 0.9951275587081909,
+        "p_position": "Finish",
+        "classifier_confidence": 0.9992175102233887,
         "overall_assessment": "notable_issues",
-        "summary": "Frame classified as Mid-followthrough (conf. 0.995). The swing shows a notably open left hip and a substantially altered spine tilt at P7, consistent with a shortened/collapsed followthrough and reduced body rotation through impact. These deviations continue a pattern seen earlier in the swing (mid\u2011downswing and impact) and likely contribute to the arms folding rather than extending through the finish.",
+        "summary": "The frame is a Finish with high classifier confidence. The torso shows an unusual backward tilt (spine_angle_from_vertical -10.9\u00b0) and the shoulder joint positions are well outside typical pro ranges, consistent with a finish where the arms have swung around a less-rotated body. This appears connected to earlier frames (Address and Toe-up) that also showed reduced/negative spine tilt, suggesting the limited body rotation is a persistent pattern through the swing.",
         "key_deviations": [
           {
-            "metric": "left_hip",
-            "observed_value": 174.6,
-            "typical_range": "146.7-158.4\u00b0",
+            "metric": "spine_angle_from_vertical",
+            "observed_value": -10.9,
+            "typical_range": "10.5-17.2\u00b0",
             "severity": "notable",
-            "explanation": "Hips are much more open toward the target than typical pros at this position \u2014 indicates the lower body has rotated or stalled early, reducing ability to carry the club through the ball and often producing a short followthrough."
+            "explanation": "Upper body is tilted backward relative to the pro typical finish \u2014 the torso remains closer to the address tilt instead of rotating upright through the finish, which is consistent with limited body rotation."
           },
           {
-            "metric": "spine_angle_from_vertical",
-            "observed_value": -12.4,
-            "typical_range": "13.5-26.1\u00b0",
+            "metric": "right_shoulder",
+            "observed_value": 162.0,
+            "typical_range": "32.7-87.8\u00b0",
             "severity": "notable",
-            "explanation": "Torso tilt is substantially different (less forward tilt / more upright/extended) than the pro range, which aligns with loss of posture and a collapsing followthrough rather than a sustained extension through P7."
+            "explanation": "Right shoulder angle is far outside the pro interquartile range, indicating an unusual shoulder position at the finish that aligns with the arms doing much of the work while the body has under-rotated."
           }
         ],
         "coaching_recommendations": [
-          "Commit to finishing the swing \u2014 \"chase the ball with the club head.\" Drill: make full practice swings without a ball, focusing on extending the arms toward the target through P7 before wrapping into the finish. (From: p7_midfollowthrough_faults.md)",
-          "Emphasize continued lower-body rotation through impact so the hands don't have to do extra work. Drill: slow-motion followthroughs where you feel the hips keep turning through the ball and the body carries the club out to P7. (From: p7_midfollowthrough_faults.md)",
-          "Check for excessive forearm/hand rotation through impact and a too-closed club face at P7 \u2014 review grip neutrality and use slow-motion swings to keep the club toe near vertical at P7. Note: the club/shaft orientation here is estimated from the lead-arm pose (proxy confidence 0.42), so verify visually or with video. (From: p7_midfollowthrough_faults.md)"
+          "Lead with the torso: practice torso-only rotations (no club) to ingrain turning the chest toward the target first, then add the arms. Cue from corpus: \u201clead with your chest, not your hands.\u201d (drill from p8_finish_faults.md).",
+          "Finish-focused practice swings: take slow, no-ball swings concentrating on reaching a high, balanced finish aimed toward the target (think target, not ball). Replicate that feeling with the ball to discourage early deceleration or an arms-only wrap (recommendation from p8_finish_faults.md).",
+          "Balance and control drill: practice controlled 70\u201380% speed swings and hold the finish for three seconds; if balance fails, widen your athletic base and ensure weight is on the balls of the feet. This helps build stability so the body can rotate through the shot rather than the arms compensating (from p8_finish_faults.md)."
         ],
         "sources_used": [
-          "p7_midfollowthrough_faults.md"
+          "p8_finish_faults.md"
         ]
       }
     },
@@ -247,33 +245,33 @@
       "frame_filename": "external_clip99999_event8.jpg",
       "true_label": "Finish",
       "report": {
-        "p_position": "Top",
-        "classifier_confidence": 0.4236813187599182,
+        "p_position": "Finish",
+        "classifier_confidence": 0.9996731281280518,
         "overall_assessment": "notable_issues",
-        "summary": "The classifier tentatively places this frame at the Top (confidence 0.42). Notable issues are present: the trail (right) shoulder is markedly elevated and the lead (left) hip shows limited rotation/extension \u2014 a pattern consistent with a reverse-spine tilt and restricted hip turn seen earlier in this swing.",
+        "summary": "Frame classified as Finish (high confidence). The finish shows a notable forward spine tilt and large shoulder/arm angles that match an \"arms-only finish\" pattern \u2014 the torso appears under-rotated while the arms have swung around it. This is consistent with the earlier frames' repeated forward spine tilt and shoulder deviations, suggesting the issue is propagating through the swing.",
         "key_deviations": [
           {
-            "metric": "right_shoulder",
-            "observed_value": 123.2,
-            "typical_range": "53.8-77.9\u00b0",
+            "metric": "spine_angle_from_vertical",
+            "observed_value": -9.1,
+            "typical_range": "10.5-17.2\u00b0",
             "severity": "notable",
-            "explanation": "The trail (right) shoulder is much higher than the pro typical range at the top, which matches the reverse-spine pattern (upper spine tilting toward the target) and can make it hard to get the club on the correct downswing plane."
+            "explanation": "Torso is more bowed/forward at the finish than typical pro ranges, indicating the body has not extended/rotated upright through the shot."
           },
           {
-            "metric": "left_hip",
-            "observed_value": 166.3,
-            "typical_range": "123.5-138.1\u00b0",
+            "metric": "left_shoulder",
+            "observed_value": 143.3,
+            "typical_range": "44.3-83.7\u00b0",
             "severity": "notable",
-            "explanation": "The lead (left) hip angle is well outside the typical pro range, indicating limited hip rotation/coil at the top; this restricted hip turn commonly forces the upper body to compensate with lateral tilt (reverse spine)."
+            "explanation": "Shoulder/arm position is much higher/closed relative to pro ranges \u2014 consistent with the arms finishing around the body while the torso has under-rotated (an \"arms-only\" finish)."
           }
         ],
         "coaching_recommendations": [
-          "Work on rotating the hips rather than tilting the upper body: practice slow backswings with one hand lightly on the trail hip to feel it rotate backward (drill from \"Reverse spine angle\" section). Aim for the spine to tilt away from the target at the top.",
-          "Limit excessive arm/shoulder elevation at the top: do controlled backswings that stop when the lead arm is parallel to the ground to avoid over-raising the trail shoulder and creating a reverse-spine feel (drill from \"Overswinging\" section).",
-          "On practice swings, focus on a shoulder turn sensation (depth of rotation) instead of trying to gain extra length with the arms \u2014 this helps preserve hip turn and prevent the trail shoulder from climbing."
+          "Turn the body first, arms second \u2014 cue: \u201clead with your chest, not your hands.\u201d (Drill: practice full turns with just the torso, then reintroduce the club.)",
+          "Practice reaching a high, balanced finish with no ball to train committing the body through the shot \u2014 think of the target, not the ball, and make practice swings focused on finishing high.",
+          "If balance is a concern, widen your athletic base and rehearse slow-motion swings holding the finish for 3 seconds; reduce speed to 70\u201380% until the balanced finish is repeatable."
         ],
         "sources_used": [
-          "p4_top_faults.md"
+          "p8_finish_faults.md"
         ]
       }
     }
@@ -281,73 +279,79 @@
   "synthesis": {
     "clip_id": 99999,
     "overall_assessment": "notable_issues",
-    "headline_summary": "The swing shows a persistent early\u2011extension / loss of posture through the downswing and impact that will reduce compression and promote thin shots. That pattern is paired with a shoulder\u2011throw/over\u2011the\u2011top sequence producing an outside\u2011in path, plus an open clubface at the toe\u2011up checkpoint; initial shoulder\u2011line misalignment at address appears to seed these patterns. Addressing hip\u2011first sequencing and the setup/face checks will have the biggest payoff.",
+    "headline_summary": "The swing shows a clear setup and posture pattern (reverse/forward-tilted spine at Address and early loss of posture at Toe-up) that persisted through impact and produced an arms-dominant, under-rotated finish \u2014 this will rob driver launch and consistency. A secondary but important issue is a likely open clubface at the toe-up position. Work first on setting a slight tilt away from the target at address and then on drills that force the torso to lead the arms through the finish.",
     "priority_issues": [
       {
-        "issue_name": "Early extension / loss of spine angle",
-        "affected_positions": [
-          "Mid-downswing",
-          "Impact",
-          "Mid-followthrough"
-        ],
-        "severity": "notable",
-        "explanation": "Across P5 (mid\u2011downswing), Impact and P7 the golfer stands up (spine_angle decreases) and the lead hip thrusts toward the ball rather than rotating through, producing early extension that crowds the arms and reduces ability to strike down and compress the ball.",
-        "primary_recommendation": "Train hip\u2011first downswing sequencing and feel rotation instead of thrust: use the pool\u2011ball\u2011behind\u2011trail\u2011knee hip bump drill to initiate the downswing with the lead hip, and practice downswing repetitions with the trail hip lightly against a wall (or a belt\u2011buckle\u2011to\u2011target cue) so forward thrust is immediately felt and corrected (from p5_middownswing_faults.md and p6_impact_faults.md)."
-      },
-      {
-        "issue_name": "Over\u2011the\u2011top / shoulder\u2011throw producing outside\u2011in path",
-        "affected_positions": [
-          "Toe-up",
-          "Mid-downswing",
-          "Top"
-        ],
-        "severity": "notable",
-        "explanation": "Notable excessive shoulder rotation/elevation (large right_shoulder at Address/Toe\u2011up and elevated left_shoulder at P5) indicates the upper body is initiating or throwing through the downswing, which drives an outside\u2011in club path and can combine with early extension to produce pushes/slices.",
-        "primary_recommendation": "Start the takeaway and downswing with a connected, one\u2011piece motion and lower\u2011body lead: practice one\u2011piece slow takeaways and the toe\u2011up checkpoint to preserve arm/shoulder connection, then use the pool\u2011ball hip\u2011bump drill at transition so the hips lead the arms into the downswing (from p2_toeup_faults.md and p5_middownswing_faults.md)."
-      },
-      {
-        "issue_name": "Open clubface at toe\u2011up (face-path mismatch)",
-        "affected_positions": [
-          "Toe-up"
-        ],
-        "severity": "notable",
-        "explanation": "The shaft proxy at the toe\u2011up position indicates a markedly open clubface (shaft toe\u2011up angle far outside pro range), which will create pushed or sliced ball flights if not corrected.",
-        "primary_recommendation": "Drill the toe\u2011up checkpoint: make slow takeaways and pause at P2 checking that the leading edge/toe is within ~15\u00b0 of vertical; combine with a neutral\u2011grip check and allow natural forearm rotation rather than forcing the clubface closed (from p2_toeup_faults.md)."
-      },
-      {
-        "issue_name": "Address shoulder\u2011line misalignment (trail shoulder out)",
+        "issue_name": "Reverse / forward spine tilt with under-rotation (arms-only finish)",
         "affected_positions": [
           "Address",
+          "Toe-up",
+          "Finish (all reported frames)"
+        ],
+        "severity": "notable",
+        "explanation": "Address shows a reverse spine tilt (spine_angle_from_vertical \u22126.2\u00b0) and a high trail shoulder, Toe-up shows further loss of forward bend (\u22129.8\u00b0), and every Finish frame records notably negative/outside pro-range spine angles (range approx. \u221213.4\u00b0 to \u22128.1\u00b0) and shoulders consistent with an arms-only finish. The pattern indicates the body never tilted/rotated correctly away from the target at setup and then failed to turn through the shot, producing an arms-dominant follow-through and likely a downward/low driver strike with reduced launch and distance.",
+        "primary_recommendation": "Begin by setting a small tilt away from the target at address using a club placed along the shoulders so the lead shoulder sits ~5\u201310\u00b0 higher than the trail shoulder (Address drill). Immediately follow with torso-only rotation drills (no club) and slow no-ball swings where you 'lead with your chest, not your hands' \u2014 hold a high, balanced finish for 2\u20133 seconds (Finish/no-ball drills)."
+      },
+      {
+        "issue_name": "Open clubface / shoulder rotation at Toe-up",
+        "affected_positions": [
           "Toe-up"
         ],
         "severity": "notable",
-        "explanation": "At address the trail (right) shoulder is well outside the pro range (shoulder line mis\u2011set), and that offset is still evident at Toe\u2011up \u2014 a poor initial shoulder alignment can bias the backswing and face/path relationships.",
-        "primary_recommendation": "Square the shoulder line at setup using a club on the ground and a club\u2011across\u2011the\u2011shoulders check; practice setup drills (mirror or video) to ingrain a consistent shoulder line before addressing the ball (from p1_address_faults.md)."
+        "explanation": "The Toe-up frame shows a notable shoulder_line rotation (175\u00b0) and an estimated open face/shaft geometry inferred from lead-arm pose; this geometry commonly accompanies a face that is fanning open at the horizontal (toe-up) position and can lead to an open face at impact (push/fade or slice).",
+        "primary_recommendation": "Work on a one-piece takeaway and allow natural forearm rotation with a neutral grip; practice arriving at Toe-up and visually check the leading edge so it finishes within ~15\u00b0 of vertical (Toe-up drill)."
       }
     ],
     "per_position_summary": {
-      "Address": "At address the primary notable fault is a pronounced trail (right) shoulder misalignment (right_shoulder notably outside pro range) with mildly upright spine tilt.",
-      "Toe-up": "Toe\u2011up shows a markedly open clubface (shaft proxy) and excessive right\u2011shoulder rotation, continuing the shoulder offset from address.",
-      "Mid-downswing (event 3, low confidence)": "This mid\u2011downswing frame (low classifier confidence) shows elevated left shoulder and an atypical lead\u2011hip angle consistent with an over\u2011the\u2011top/blocked\u2011hip pattern.",
-      "Top (confident)": "At the Top the pelvis/hips are substantially more open than typical (both hips notably outside pro ranges), indicating excessive pelvic rotation at the top.",
-      "Mid-downswing (confident)": "Mid\u2011downswing (confident) shows a strongly elevated left shoulder and a marked loss of spine angle (standing up), consistent with shoulder\u2011throw and early extension.",
-      "Impact": "Impact shows a significant loss of forward spine tilt and the lead hip thrust toward the ball (early extension) rather than rotating through.",
-      "Mid-followthrough": "Mid\u2011followthrough displays an overly open left hip and reduced/posture collapse through P7, consistent with a shortened followthrough and incomplete rotation.",
-      "Top (tentative)": "A tentative Top frame shows a highly elevated trail shoulder and limited lead\u2011hip rotation (reverse\u2011spine / restricted hip turn pattern)."
+      "Position 1 (Address)": "High-confidence Address: reverse spine tilt (spine \u22126.2\u00b0) and the trail (right) shoulder sits higher than the lead shoulder \u2014 setup favors a downward/inside driver strike.",
+      "Position 2 (Toe-up)": "High-confidence Toe-up: further loss of forward bend (spine \u22129.8\u00b0) and a rotated/high left shoulder suggesting the shaft/face may be open at the horizontal.",
+      "Position 3 (Finish)": "Classifier-labeled Finish: torso/ spines show a markedly negative tilt (\u221213.4\u00b0) with shoulders/hips within range \u2014 finish posture consistent with limited body rotation and an arms-only finish.",
+      "Position 4 (Finish)": "Finish frame: torso notably less rotated and more upright/extended (spine \u221211.0\u00b0) with extreme shoulder angle indicating the arms finished around an under-rotated body.",
+      "Position 5 (Finish)": "Finish frame: lack of body rotation (spine \u22128.1\u00b0) and large right-shoulder deviation consistent with an arms-dominant, under-rotated follow-through.",
+      "Position 6 (Finish)": "Finish frame: pronounced forward spine tilt (\u22128.3\u00b0) and a very high left-shoulder angle indicating the arms wrapped high while the torso remained under-rotated.",
+      "Position 7 (Finish)": "Finish frame: torso under-rotated (spine \u221210.9\u00b0) with right-shoulder angle far outside pro norms, again matching an arms-only finish pattern.",
+      "Position 8 (Finish)": "Finish frame: forward/over-bowed spine (\u22129.1\u00b0) and high left-shoulder position consistent with the repeated arms-dominant finish observed throughout the swing."
     },
     "propagation_observations": [
-      "The trail/right shoulder misalignment at Address (notable) is present again at Toe\u2011up (notable) and appears to feed into the excessive shoulder elevation/throw seen through the backswing and downswing.",
-      "An early\u2011extension pattern is visible through P5 \u2192 Impact \u2192 P7: loss of spine tilt and a lead\u2011hip thrust at impact consistently follow the mid\u2011downswing standing up pattern.",
-      "The open clubface detected at the Toe\u2011up checkpoint sets a face condition early in the swing that, combined with an outside\u2011in path from shoulder\u2011throwing, will tend to produce pushed/sliced ball flights."
+      "The reverse/forward-tilted spine at Address (\u22126.2\u00b0) worsened at Toe-up (\u22129.8\u00b0) and persisted through every Finish frame (range roughly \u221213.4\u00b0 to \u22128.1\u00b0), showing a continuous posture/rotation deficit from setup into follow-through.",
+      "The high trail shoulder at Address aligns with the later finish shoulder extremes, indicating the initial shoulder/torso orientation at setup propagated through the swing and contributed to an arms-first wrap rather than body-led rotation."
     ],
     "classifier_disagreements": [
-      "event 3 (assumed: Mid-backswing, predicted: Mid-downswing)",
-      "event 8 (assumed: Finish, predicted: Top)"
+      "event 3 (assumed: Mid-backswing, predicted: Finish)",
+      "event 4 (assumed: Top, predicted: Finish)",
+      "event 5 (assumed: Mid-downswing, predicted: Finish)",
+      "event 6 (assumed: Impact, predicted: Finish)",
+      "event 7 (assumed: Mid-followthrough, predicted: Finish)"
     ]
   },
+  "beginner_report": {
+    "clip_id": 99999,
+    "encouragement": "You have a very repeatable setup and clear swing shape to build from \u2014 that consistency is a huge advantage. Your shoulders and hips show reliable patterns, so a few targeted, simple changes should give noticeable improvements in driver launch and direction.",
+    "top_3_takeaways": [
+      {
+        "title": "Tilt slightly away at setup",
+        "feel_cue": "Feel your chest and lead shoulder tilt just a little away from the target so you\u2019re leaning off the ball, not toward it.",
+        "simple_drill": "Place a club across your shoulders, raise the lead shoulder a touch higher than the trail shoulder, and make slow practice swings keeping that slight lean."
+      },
+      {
+        "title": "Takeaway with your body",
+        "feel_cue": "Feel your shoulders and torso move the club back together so the hands don\u2019t pull the club around and the face sits flatter when horizontal.",
+        "simple_drill": "On slow half\u2011swings stop at the horizontal, check the clubface, and practice taking the club back with your upper body rather than just your hands."
+      },
+      {
+        "title": "Lead with your chest",
+        "feel_cue": "On the downswing feel your chest and hips start the turn toward the target first while your hands relax and follow.",
+        "simple_drill": "Do slow no\u2011ball swings where you start the downswing by rotating your chest toward the target and hold a balanced finish for 2\u20133 seconds."
+      }
+    ],
+    "one_sentence_summary": "A consistent setup is letting you repeat the same swing, but a slight backward tilt at address and an open face mid-back combined with not letting your torso lead through the shot are causing an arms-led finish that cuts driver launch and consistency."
+  },
   "classifier_disagreements": [
-    "event 3 (assumed: Mid-backswing, predicted: Mid-downswing)",
-    "event 8 (assumed: Finish, predicted: Top)"
+    "event 3 (assumed: Mid-backswing, predicted: Finish)",
+    "event 4 (assumed: Top, predicted: Finish)",
+    "event 5 (assumed: Mid-downswing, predicted: Finish)",
+    "event 6 (assumed: Impact, predicted: Finish)",
+    "event 7 (assumed: Mid-followthrough, predicted: Finish)"
   ],
-  "wall_time_sec": 307.2
+  "wall_time_sec": 329.5
 }
