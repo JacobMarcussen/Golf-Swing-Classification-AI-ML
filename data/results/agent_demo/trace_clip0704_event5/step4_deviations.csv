@@ -1,0 +1,13 @@
+metric,observed,pro range (p25-p75),pro median,deviation,severity
+left_elbow,147.1°,141.6-157.6°,151.0°,0°,within_typical_range
+right_elbow,117.8°,87.9-133.0°,112.1°,0°,within_typical_range
+left_shoulder,71.3°,61.8-79.0°,69.5°,0°,within_typical_range
+right_shoulder,85.2°,28.0-60.5°,44.0°,+24.7°,notable
+left_hip,175.5°,168.4-177.2°,173.8°,0°,within_typical_range
+right_hip,157.8°,151.1-161.6°,156.2°,0°,within_typical_range
+left_knee,172.9°,167.3-175.4°,171.3°,0°,within_typical_range
+right_knee,173.1°,169.2-176.8°,173.9°,0°,within_typical_range
+spine_angle_from_vertical,-7.4°,-11.0--4.7°,-7.9°,0°,within_typical_range
+hip_line_from_horizontal,179.5°,-177.8-177.9°,-171.5°,+1.7°,notable
+shoulder_line_from_horizontal,-177.7°,-174.4-172.4°,-167.8°,-3.2°,mild
+shaft (lead-arm proxy),179.6°,-173.2-173.9°,-167.5°,+5.8°,mild

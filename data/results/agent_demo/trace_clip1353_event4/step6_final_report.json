@@ -1,0 +1,14 @@
+{
+  "p_position": "Top",
+  "classifier_confidence": 0.9958350658416748,
+  "overall_assessment": "good",
+  "summary": "The frame is classified as Top (confidence 0.996). Measured joint angles (shoulders, spine, elbows, knees) all fall within typical pro ranges and the overall assessment is technically sound \u2014 no notable faults were detected. Shaft-direction estimates are unreliable for this frame so shaft comments are omitted.",
+  "key_deviations": [],
+  "coaching_recommendations": [
+    "Reinforce a rotation-led backswing: continue to prioritize shoulder/torso rotation depth rather than trying to gain extra length with the arms \u2014 a useful practice is to make controlled backswings that stop when the lead arm reaches parallel (p4_top_faults.md).",
+    "Maintain the connection of the trail arm/elbow through the top \u2014 keep feeling the trail elbow 'pocketed' toward the trail hip; a simple drill is to swing with a headcover or glove tucked under the trail armpit to preserve that connection (p4_top_faults.md)."
+  ],
+  "sources_used": [
+    "p4_top_faults.md"
+  ]
+}

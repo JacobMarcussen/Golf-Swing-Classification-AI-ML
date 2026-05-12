@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-05-12T18:03:26.208300",
+  "mediapipe_version": "0.10.14",
+  "random_seed": 42,
+  "filters": {
+    "club": "driver",
+    "view": [
+      "down-the-line",
+      "face-on"
+    ]
+  },
+  "dedup_rule": "keep one clip per (player, youtube_id), prefer slow=1",
+  "n_clips_input": 765,
+  "n_clips_after_dedup": 345,
+  "n_clips_succeeded": 345,
+  "n_clips_failed": 0,
+  "failed_clips": [],
+  "handedness_counts": {
+    "R": "333",
+    "L": "11",
+    "unknown": "1"
+  },
+  "handedness_flipping_applied": false,
+  "handedness_note": "detection recorded but no flipping applied; mirror augmentation done in Phase 2 instead",
+  "splits": {
+    "train": 246,
+    "val": 39,
+    "test": 60
+  }
+}

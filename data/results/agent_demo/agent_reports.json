@@ -1,0 +1,89 @@
+[
+  {
+    "frame": "clip0546_event1.jpg",
+    "true_label": "Address",
+    "view": "face-on",
+    "report": {
+      "p_position": "Address",
+      "classifier_confidence": 0.9932627081871033,
+      "overall_assessment": "mild_issues",
+      "summary": "This frame is a clear Address setup with posture and limb angles largely within typical pro ranges. There are only mild deviations (a slightly greater spine tilt from vertical and a small right-knee difference versus the pro median); the shaft direction was estimated from the lead-arm pose. Overall the setup is serviceable but worth a quick check with the drills below.",
+      "key_deviations": [],
+      "coaching_recommendations": [
+        "Check/maintain an athletic amount of knee flex: adopt the posture so you 'could jump' from it. Drill from p1_address_faults.md \u2014 assume your address with eyes closed, then open and confirm knees are bent enough that a gentle downward push wouldn\u2019t tip you forward.",
+        "Confirm spine/head height and distance to the ball by letting the club set the spacing: place a club on the ground perpendicular to the target line and address so your hands rest roughly a hand\u2019s-width above that club (this helps avoid over-bending or crowding the ball).",
+        "Verify shoulder tilt for a driver (or desired shot): hold a club along your shoulders and check in a mirror or video so the lead shoulder is slightly higher than the trail shoulder if you need an upward angle of attack \u2014 this is the recommended check in p1_address_faults.md."
+      ],
+      "sources_used": [
+        "p1_address_faults.md"
+      ]
+    }
+  },
+  {
+    "frame": "clip1353_event4.jpg",
+    "true_label": "Top",
+    "view": "face-on",
+    "report": {
+      "p_position": "Top",
+      "classifier_confidence": 0.9958350658416748,
+      "overall_assessment": "good",
+      "summary": "The frame is classified as Top (confidence 0.996). Measured joint angles (shoulders, spine, elbows, knees) all fall within typical pro ranges and the overall assessment is technically sound \u2014 no notable faults were detected. Shaft-direction estimates are unreliable for this frame so shaft comments are omitted.",
+      "key_deviations": [],
+      "coaching_recommendations": [
+        "Reinforce a rotation-led backswing: continue to prioritize shoulder/torso rotation depth rather than trying to gain extra length with the arms \u2014 a useful practice is to make controlled backswings that stop when the lead arm reaches parallel (p4_top_faults.md).",
+        "Maintain the connection of the trail arm/elbow through the top \u2014 keep feeling the trail elbow 'pocketed' toward the trail hip; a simple drill is to swing with a headcover or glove tucked under the trail armpit to preserve that connection (p4_top_faults.md)."
+      ],
+      "sources_used": [
+        "p4_top_faults.md"
+      ]
+    }
+  },
+  {
+    "frame": "clip0704_event5.jpg",
+    "true_label": "Mid-downswing",
+    "view": "face-on",
+    "report": {
+      "p_position": "Mid-downswing",
+      "classifier_confidence": 0.9983036518096924,
+      "overall_assessment": "mild_issues",
+      "summary": "This frame is Mid-downswing with high classifier confidence. Most joint angles fall inside typical pro ranges; there are only mild signs (hip_line and an estimated shaft direction) suggesting slightly limited hip clearance/rotation rather than a major fault. Recommendations focus on lower-body-first sequencing drills to ensure the hips lead the downswing.",
+      "key_deviations": [],
+      "coaching_recommendations": [
+        "Initiate the downswing with the lead hip moving first \u2014 feel a small \"bump\" of the lead hip toward the target before the arms. Drill from the corpus: drop a pool ball behind the trail knee and start the downswing by moving the hips toward the target (over-the-top fix).",
+        "Practice \"clearing the lead hip\" using an alignment stick placed next to the lead hip; rotate the hip to touch the stick without sliding toward it (insufficient hip clearance fix).",
+        "If you suspect the hips are thrusting forward rather than rotating, use the wall/chair drill to feel rotation around a fixed axis rather than pushing toward the ball (early extension fix).",
+        "Note on the shaft: the club direction here is estimated from the lead-arm proxy (proxy_confidence=0.42), so treat any shaft-plane feedback as tentative. If you observe outside-to-in strikes on the course, prioritize the hip-bump and lead-hip clearing drills above to correct sequencing (over-the-top guidance)."
+      ],
+      "sources_used": [
+        "p5_middownswing_faults.md"
+      ]
+    }
+  },
+  {
+    "frame": "clip0688_event6.jpg",
+    "true_label": "Impact",
+    "view": "down-the-line",
+    "report": {
+      "p_position": "Address",
+      "classifier_confidence": 0.9498668909072876,
+      "overall_assessment": "notable_issues",
+      "summary": "Frame classified as Address (high confidence). The setup is mostly within typical ranges except for a notable right-shoulder deviation that suggests the shoulder line or shoulder tilt at address is atypical; this can affect aim and initial swing plane. Focus on simple alignment and shoulder-tilt checks before addressing other mechanics.",
+      "key_deviations": [
+        {
+          "metric": "right_shoulder",
+          "observed_value": 9.4,
+          "typical_range": "31.0-38.4\u00b0",
+          "severity": "notable",
+          "explanation": "The trail (right) shoulder angle is substantially lower than the pro typical range for Address, indicating the shoulder line may be misaligned (open/closed) or the shoulder tilt is atypical relative to the lead shoulder; this can produce aiming errors or compensations in the swing."
+        }
+      ],
+      "coaching_recommendations": [
+        "Check alignment using a club laid on the ground parallel to the target line \u2014 the shoulder line should be parallel to that reference. Drill: practice setting up to a chair or wall and confirm the lead shoulder is not extended further forward than the trail shoulder relative to the wall (helps correct open/closed shoulder line).",
+        "For driver setup, ensure the lead shoulder is slightly higher than the trail shoulder (about 5\u201310\u00b0 tilt away from the target) to pre-set an upward strike. Drill: hold a club along the shoulders and check the angle in a mirror or video to confirm shoulder tilt and symmetry."
+      ],
+      "sources_used": [
+        "p1_address_faults.md"
+      ]
+    }
+  }
+]

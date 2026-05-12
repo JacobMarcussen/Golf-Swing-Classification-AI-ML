@@ -1,0 +1,30 @@
+{
+  "p_position": "Mid-downswing",
+  "classifier_confidence": 0.9997933506965637,
+  "overall_assessment": "notable_issues",
+  "summary": "High-confidence Mid-downswing frame. The upper body (shoulders) appears to be rotating ahead of the lower body while the hips show limited rotational clearance \u2014 a pattern consistent with an over-the-top / blocked-rotation issue. Addressing lower-body lead and hip clearance should be prioritized.",
+  "key_deviations": [
+    {
+      "metric": "right_shoulder",
+      "observed_value": 85.2,
+      "typical_range": "28.0-60.5\u00b0",
+      "severity": "notable",
+      "explanation": "Trail (right) shoulder is substantially more open/elevated than typical pro range, indicating the upper body is rotating ahead of the lower body \u2014 a common sign of an over-the-top release or 'throwing' the arms."
+    },
+    {
+      "metric": "hip_line_from_horizontal",
+      "observed_value": 179.5,
+      "typical_range": "-177.8-177.9\u00b0",
+      "severity": "notable",
+      "explanation": "Hip line shows minimal rotation/clearance toward the target at this position, consistent with insufficient hip clearance (the hips are 'stuck'), which forces the arms to compensate."
+    }
+  ],
+  "coaching_recommendations": [
+    "Initiate the downswing with the lower body before the arms: feel a small 'bump' of the lead hip toward the target so the hips clear and the arms can follow. Drill from corpus: drop a pool ball behind the trail knee and feel the knee move toward the ball before the arms begin the downswing. (Over-the-top section)",
+    "Use the cue 'clear the lead hip' and practice rotating the lead hip out of the way rather than sliding. Drill from corpus: place an alignment stick next to the lead hip and practice rotating to touch the stick without sliding toward it. (Insufficient hip clearance section)",
+    "Check for early extension and ensure the trail hip rotates through rather than thrusting toward the ball. Drill from corpus: make downswings with your back against a wall or chair to feel and prevent the hips from thrusting forward. (Early extension section)"
+  ],
+  "sources_used": [
+    "p5_middownswing_faults.md"
+  ]
+}

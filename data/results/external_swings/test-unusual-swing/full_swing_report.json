@@ -1,0 +1,249 @@
+{
+  "clip_id": 99999,
+  "view": "down-the-line",
+  "source": "..\\data\\raw\\test-unusual-swing.mp4",
+  "per_frame_reports": [
+    {
+      "event_idx": 1,
+      "frame_filename": "external_clip99999_event1.jpg",
+      "true_label": "Address",
+      "report": {
+        "p_position": "Address",
+        "classifier_confidence": 0.9994950294494629,
+        "overall_assessment": "good",
+        "summary": "This frame is at Address with a technically sound setup: spine angle, shoulder line, and hip positions fall within typical pro ranges. Maintain the current posture and balance \u2014 the setup is solid for a good, repeatable swing.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Reinforce your athletic spine angle by using the club-on-ground drill: place a club perpendicular to the target line and ensure your hands sit about a hand\u2019s width above it to avoid over-bending (from p1_address_faults.md).",
+          "Keep weight centered on the balls of your feet \u2014 check balance with the heel-lift drill (briefly raise both heels in address). If you can\u2019t lift, shift slightly more forward onto the toes to maintain an athletic stance (from p1_address_faults.md)."
+        ],
+        "sources_used": [
+          "p1_address_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 2,
+      "frame_filename": "external_clip99999_event2.jpg",
+      "true_label": "Toe-up",
+      "report": {
+        "p_position": "Toe-up",
+        "classifier_confidence": 0.9993149042129517,
+        "overall_assessment": "mild_issues",
+        "summary": "Frame is a clear Toe-up position (classifier confidence 0.999). Overall the setup at P2 is largely within pro ranges \u2014 spine angle and hips look typical; there is a mild increase in right-shoulder rotation compared with the pro p25\u2013p75 band but this is a small deviation, not a major fault. Given the prior Address was good, there\u2019s no obvious sign that this mild shoulder difference is a carry-over problem from the setup.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Use a one-piece takeaway: start the backswing by moving shoulders, arms and club together for the first ~1 foot to keep the club on a cleaner path. Drill (from corpus): place an alignment rod along the target line and practice sweeping the clubhead along that rod for the first ~18 inches.",
+          "Check grip neutrality and allow forearm rotation to follow the body turn rather than forcing the hands. The retrieved material recommends a neutral grip combined with a natural forearm rotation to reduce early face manipulation.",
+          "Practice slow, body-led takeaways (slow-motion reps) focusing on turning the torso rather than initiating with the hands; this encourages the shoulders and arms to work as a unit and helps prevent an inside or overly hand-driven takeaway."
+        ],
+        "sources_used": [
+          "p2_toeup_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 3,
+      "frame_filename": "external_clip99999_event3.jpg",
+      "true_label": "Mid-backswing",
+      "report": {
+        "p_position": "Mid-backswing",
+        "classifier_confidence": 0.9996210336685181,
+        "overall_assessment": "mild_issues",
+        "summary": "This frame shows a technically sound mid\u2011backswing: shoulders, hips and spine are all within typical pro ranges. The only measurable deviation is a mild shoulder-line tilt; there\u2019s no clear evidence here that this is propagating from the earlier toe\u2011up observation at Address/Toe\u2011up.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Prioritize rotating the torso rather than lifting with the arms \u2014 make half\u2011swings where the feeling is that the hands stay lower and the shoulders do the lifting (this helps avoid an outside/over\u2011the\u2011top path).",
+          "Use a tactile drill to preserve lead\u2011arm width: place a pool noodle or similar over the lead arm while making backswings so the arm is prevented from folding; this promotes an extended lead arm and wider arc.",
+          "Use a towel tucked under the trail (right) armpit during practice swings; keep the towel from falling out through the backswing to encourage connected rotation rather than arm lifting."
+        ],
+        "sources_used": [
+          "p3_midbackswing_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 4,
+      "frame_filename": "external_clip99999_event4.jpg",
+      "true_label": "Top",
+      "report": {
+        "p_position": "Top",
+        "classifier_confidence": 0.9997296929359436,
+        "overall_assessment": "mild_issues",
+        "summary": "This frame is classified as Top (99.97% confidence). Most measurements fall within typical pro ranges; the only measurable deviation is a mild reduction in left-hip rotation at the top, which is consistent with the earlier mid-backswing mild issues and suggests a slightly limited coil through the torso.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Promote more hip rotation rather than compensatory upper-body tilt: practice slow backswings with one hand lightly on the trail hip, feeling the hip rotate backward (drill from 'Reverse spine angle' in p4_top_faults.md).",
+          "Maintain a connected trail arm to ensure a proper fold at the top: practice backswings with a headcover or glove tucked under the trail armpit \u2014 if it falls out the trail elbow has separated; keep the elbow \"pocketed\" toward the trail hip (from 'Flying trail elbow' in p4_top_faults.md).",
+          "Continue reinforcing the current shoulder turn and spine tilt \u2014 these are within typical pro ranges, so keep the same setup and rotation feel while applying the drills above (supporting text in p4_top_faults.md)."
+        ],
+        "sources_used": [
+          "p4_top_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 5,
+      "frame_filename": "external_clip99999_event5.jpg",
+      "true_label": "Mid-downswing",
+      "report": {
+        "p_position": "Mid-downswing",
+        "classifier_confidence": 0.999919056892395,
+        "overall_assessment": "mild_issues",
+        "summary": "The frame is confidently classified as Mid-downswing. Motion is generally sound but shows mild reduced hip rotation and a slightly larger-than-typical spine tilt at P5 \u2014 these are small deviations that can be related to the earlier mild issues you noted in the mid-backswing/top. Work on clearing the lead hip and sequencing the lower body before the arms to prevent these patterns from persisting.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Cue and feel the lead hip clear: \"clear the lead hip.\" Drill from the corpus: place an alignment stick alongside the lead hip and practice rotating the hip to touch the stick without sliding \u2014 this trains rotational clearance rather than lateral thrust (p5_middownswing_faults.md).",
+          "Start the downswing with the lower body: feel a small lead-hip \"bump\" toward the target before the arms move. Drill from the corpus: place a pool ball behind the trail knee and feel the knee move toward the ball before initiating the arms \u2014 this promotes correct sequencing and reduces being \"stuck\" at P5 (p5_middownswing_faults.md).",
+          "Use a quiet-posture check to prevent any unwanted standing-up: make slow downswings with your back lightly against a wall or chair. The corpus notes this immediately reveals any forward thrust of the hips and helps maintain spine angle through P5 (p5_middownswing_faults.md)."
+        ],
+        "sources_used": [
+          "p5_middownswing_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 6,
+      "frame_filename": "external_clip99999_event6.jpg",
+      "true_label": "Impact",
+      "report": {
+        "p_position": "Impact",
+        "classifier_confidence": 0.9986178874969482,
+        "overall_assessment": "notable_issues",
+        "summary": "This frame is Impact (high classifier confidence). The most notable issue is an over-open/right-shoulder angle at impact consistent with weight remaining on the trail side; this pattern can be connected to earlier mild issues in the backswing/top that leave the weight untransferred through the downswing. Shaft geometry data were unavailable, so I omitted shaft-specific feedback.",
+        "key_deviations": [
+          {
+            "metric": "right_shoulder",
+            "observed_value": 47.4,
+            "typical_range": "17.3-29.9\u00b0",
+            "severity": "notable",
+            "explanation": "Right shoulder is rotated/opened substantially more than the pro range at impact, a pattern that matches a weight-on-trail (reverse pivot) presentation and reduces the ability to compress the ball."
+          }
+        ],
+        "coaching_recommendations": [
+          "Address weight transfer through the downswing: practice the step-through drill (make impact with the trail foot raised) to force weight onto the lead side and rehearse a lead-side finish. (source: p6_impact_faults.md)",
+          "Prioritize hip rotation rather than hip thrust at impact: use the cue \u201cbelt buckle turns to face the target, not the ball,\u201d and practice downswings against a wall behind the trail hip so any forward thrust is felt immediately. (source: p6_impact_faults.md)"
+        ],
+        "sources_used": [
+          "p6_impact_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 7,
+      "frame_filename": "external_clip99999_event7.jpg",
+      "true_label": "Mid-followthrough",
+      "report": {
+        "p_position": "Mid-followthrough",
+        "classifier_confidence": 0.9999479055404663,
+        "overall_assessment": "mild_issues",
+        "summary": "This frame shows a mild restriction in upper-body rotation through the mid-followthrough \u2014 the shoulder line and spine angle are slightly reduced compared with typical pro ranges. The pattern (mildly limited shoulder rotation) could be a continuation of the earlier impact-phase issues (notably the elevated right-shoulder at impact), suggesting some deceleration through and after impact rather than a full committed turn.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Commit to finishing the swing: practice the cue from the corpus\u2014\"chase the ball with the club head\"\u2014to promote arm extension toward the target and prevent the arms folding early.",
+          "Drill 1 (no-ball full swings): make full practice swings without a ball, focusing on extending the arms out toward the target through P7 before allowing the body to wrap into the finish (this reinforces carrying momentum through impact).",
+          "Drill 2 (slow-motion followthrough): perform slow-motion followthroughs and check that the club toe reaches approximately vertical at P7 (toe pointing up), not past vertical; this helps reduce excessive forearm rotation and prevents a closed-face followthrough.",
+          "Check grip and lower-body rotation: verify a neutral grip and consciously continue lower-body rotation through impact so the hands do not over-rotate to compensate (both recommendations are from the retrieved mid-followthrough guidance)."
+        ],
+        "sources_used": [
+          "p7_midfollowthrough_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 8,
+      "frame_filename": "external_clip99999_event8.jpg",
+      "true_label": "Finish",
+      "report": {
+        "p_position": "Finish",
+        "classifier_confidence": 0.9999125003814697,
+        "overall_assessment": "notable_issues",
+        "summary": "The finish shows incomplete lower-body rotation: the hips remain significantly closed to the target while the shoulders appear more open, indicating the lower body stalled through the follow-through. This is consistent with a common post-impact stall (hips stopping after impact) and may be a continuation of the swing issue noted at Impact; shaft-related feedback is omitted because the shaft proxy confidence is low.",
+        "key_deviations": [
+          {
+            "metric": "right_hip",
+            "observed_value": 143.3,
+            "typical_range": "158.7-167.2\u00b0",
+            "severity": "notable",
+            "explanation": "Hips are under-rotated at the finish (belt buckle not facing the target), indicating the lower body stalled instead of continuing through to the target."
+          }
+        ],
+        "coaching_recommendations": [
+          "Drive the hips all the way through so the belt-buckle/hip-line faces the target \u2014 cue: \"turn your back pocket to the target.\" (Drill: check the finish after each swing; if the belt buckle is not facing the target, repeat the swing until it is.)",
+          "Make practice swings focusing on a high, committed finish with full rotation \u2014 think of the target, not the ball. (Drill: take slow, no-ball swings reaching a balanced finish, then replicate with a ball.)",
+          "Emphasize turning the torso before the arms: lead with your chest, not your hands. (Drill: practice full turns with just the torso/no club, then add the arms so the body carries the arms through the finish.)"
+        ],
+        "sources_used": [
+          "p8_finish_faults.md"
+        ]
+      }
+    }
+  ],
+  "synthesis": {
+    "clip_id": 99999,
+    "overall_assessment": "notable_issues",
+    "headline_summary": "Setup is solid and repeatable, but the swing shows a clear weight-transfer and lower-body sequencing problem: weight remains too much on the trail side into impact (over-open right shoulder) and the hips stall through the finish. Earlier backswing/top frames show mild, non-severe limits in hip rotation that likely made it harder to sequence the downswing. Focus first on drills that force lead-side weight at impact (step-through) and drills/cues that drive the hips fully through the finish (belt-buckle/to-target finish and no-ball full swings).",
+    "priority_issues": [
+      {
+        "issue_name": "Insufficient lead-side weight transfer / open right shoulder at impact",
+        "affected_positions": [
+          "Mid-downswing",
+          "Impact",
+          "Mid-followthrough"
+        ],
+        "severity": "notable",
+        "explanation": "At impact the right shoulder is substantially over-open (47.4\u00b0, well outside the pro band), indicating weight remained on the trail side through impact and reduced ability to compress the ball; mild reduced hip rotation and increased spine tilt seen in the mid-downswing and a mildly restricted rotation in the mid-followthrough are consistent contributors to this pattern.",
+        "primary_recommendation": "Practice the step-through drill (make impact with the trail foot raised) to force weight onto the lead side and rehearse a lead-side finish, combined with the cue 'belt buckle turns to face the target' and downswings against a wall behind the trail hip to instantly feel and correct trail-side weight (sources: p6_impact_faults.md)."
+      },
+      {
+        "issue_name": "Lower-body stall / under-rotated hips at finish",
+        "affected_positions": [
+          "Impact",
+          "Finish"
+        ],
+        "severity": "notable",
+        "explanation": "The finish shows significant under-rotation of the hips (right_hip 143.3\u00b0 vs typical 158.7\u2013167.2\u00b0), indicating the lower body stalled after impact rather than continuing to the target; this under-rotation is consistent with the impact-phase weight-on-trail pattern and reduces post-impact momentum and rotation through the shot.",
+        "primary_recommendation": "Drive the hips fully through each swing \u2014 use the cue 'turn your back pocket to the target' and practice no-ball full swings focusing on a balanced, fully rotated finish (repeat swings until the belt buckle faces the target) as described in the finish guidance (sources: p8_finish_faults.md)."
+      }
+    ],
+    "per_position_summary": {
+      "Address": "Setup at address is technically sound with athletic spine angle, shoulder line and hip positions within typical pro ranges.",
+      "Toe-up": "Toe-up (P2) shows a mild increase in right-shoulder rotation compared with the pro band but otherwise a normal takeaway.",
+      "Mid-backswing": "Mid-backswing is largely within pro ranges with only a mild shoulder-line tilt noted.",
+      "Top": "Top shows a mild reduction in left-hip rotation (slightly limited coil) while other measures remain near-pro.",
+      "Mid-downswing": "Mid-downswing presents mild reduced hip rotation and a slightly larger-than-typical spine tilt, suggesting limited lower-body clearance.",
+      "Impact": "Impact shows a notable over-open right-shoulder (47.4\u00b0), consistent with weight remaining on the trail side at impact (notable).",
+      "Mid-followthrough": "Mid-followthrough displays a mild restriction in upper-body rotation, consistent with some deceleration after impact.",
+      "Finish": "Finish reveals a notable lower-body stall with under-rotated hips (right_hip 143.3\u00b0), indicating the hips did not fully turn to the target (notable)."
+    },
+    "propagation_observations": [
+      "Mildly limited hip rotation at the Top and mild reduced hip rotation/larger spine tilt at the Mid-downswing likely made it harder to clear the lower body, contributing to the trail-weight/open-shoulder presentation at Impact.",
+      "The open right-shoulder at Impact and the mild deceleration through the mid-followthrough appear to continue into the Finish as an under-rotated hip-line, indicating the problem persists through impact into the follow-through rather than being a single-frame event."
+    ],
+    "classifier_disagreements": []
+  },
+  "beginner_report": {
+    "clip_id": 99999,
+    "encouragement": "Your setup is solid and repeatable, and your backswing and top positions are largely close to where we want them \u2014 that\u2019s a great foundation to build from. With a few simple drills to move your weight onto the front foot and finish your hips through the shot, you\u2019ll get more consistent contact and more power.",
+    "top_3_takeaways": [
+      {
+        "title": "Shift weight to front",
+        "feel_cue": "Feel like you\u2019re stepping toward the target so most of your weight is on your front leg at impact \u2014 imagine landing softly on that front foot.",
+        "simple_drill": "Do the step-through drill: make controlled half\u2011swings and after contact lift or step forward with your back foot so you finish with most weight on the front foot, repeating until it feels natural."
+      },
+      {
+        "title": "Turn hips all the way",
+        "feel_cue": "Feel your belt buckle and back pocket turning to point at the target and keep turning through the shot instead of stopping right after impact.",
+        "simple_drill": "Practice no\u2011ball full swings where you focus on rotating your hips through to a balanced finish with the belt buckle facing the target, repeating until you can hold that finish."
+      },
+      {
+        "title": "Start hips before hands",
+        "feel_cue": "Feel a small, deliberate hip turn that leads the downswing \u2014 like your lower body gently pulls the rest of you through while your arms stay relaxed.",
+        "simple_drill": "From the top, make slow\u2011motion swings where you pause and then begin the downswing by turning your hips toward the target a split second before your hands and club follow."
+      }
+    ],
+    "one_sentence_summary": "Good setup and backswing, but you tend to hang back through impact and not fully turn your hips \u2014 practice stepping through to the front foot and finishing with your belt buckle to the target."
+  },
+  "classifier_disagreements": [],
+  "wall_time_sec": 349.2
+}

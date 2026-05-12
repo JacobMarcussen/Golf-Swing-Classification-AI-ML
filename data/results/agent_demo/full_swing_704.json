@@ -1,0 +1,233 @@
+{
+  "clip_id": 704,
+  "view": "face-on",
+  "per_frame_reports": [
+    {
+      "event_idx": 1,
+      "frame_filename": "clip0704_event1.jpg",
+      "true_label": "Address",
+      "report": {
+        "p_position": "Address",
+        "classifier_confidence": 0.999295711517334,
+        "overall_assessment": "mild_issues",
+        "summary": "Frame classified as Address with high confidence. Overall posture is within typical pro ranges; there is a mild tendency for the trail (right) knee to be a touch straighter than the pro middle range, but no notable faults detected in this frame. Keep this setup and make a small knee-flex check before the swing.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Add a small, conscious knee flex if you feel locked-out \u2014 knees near 175\u2013180\u00b0 can indicate insufficient athletic bend. Drill from corpus: assume your address with eyes closed, then open your eyes and ensure knees are bent enough that a slight downward push wouldn\u2019t tip you forward (p1_address_faults.md, \"Insufficient knee flex\").",
+          "Maintain the current spine tilt and avoid reaching for the ball: set the club behind the ball, then step into your stance so the distance is set by the club (not by bending more). This helps prevent excessive forward bend (p1_address_faults.md, \"Excessive forward bend\").",
+          "If this is a driver setup, briefly check shoulder tilt so the lead shoulder is slightly higher than the trail shoulder (a modest tilt away from the target) to promote the correct upward angle of attack (p1_address_faults.md, \"Reverse spine tilt\")."
+        ],
+        "sources_used": [
+          "p1_address_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 2,
+      "frame_filename": "clip0704_event2.jpg",
+      "true_label": "Toe-up",
+      "report": {
+        "p_position": "Toe-up",
+        "classifier_confidence": 0.9957606196403503,
+        "overall_assessment": "mild_issues",
+        "summary": "The frame is a Toe-up position and the classifier is highly confident. Most joint angles fall within typical pro ranges; there is a mild hip-line tilt outside the p25\u2013p75 band but no clear propagation of the earlier Address-level issues into this position. Shaft direction is estimated from the lead-arm proxy (confidence ~0.63), so visual confirmation is recommended.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Check the clubface at toe-up: when the shaft is horizontal the leading edge should be within ~15\u00b0 of vertical. Use a mirror or stop at P2 to inspect the toe orientation and practice a one-piece takeaway allowing the forearms to rotate naturally (this addresses both open and closed face tendencies).",
+          "Maintain forward bend/hip flexion through the backswing: cue \u201ckeep your belt buckle pointed at the ball\u201d and drill half-swings with a foam pool noodle or alignment stick pressed between your back and a wall \u2014 losing contact indicates early loss of spine angle.",
+          "Confirm shaft/face orientation visually because the shaft angle here is estimated from the lead-arm pose (proxy confidence ~0.63). If the toe appears open or closed on inspection, follow the grip and rotation drills (neutral grip and allow forearm rotation) in the toe-up troubleshooting notes."
+        ],
+        "sources_used": [
+          "p2_toeup_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 3,
+      "frame_filename": "clip0704_event3.jpg",
+      "true_label": "Mid-backswing",
+      "report": {
+        "p_position": "Mid-backswing",
+        "classifier_confidence": 0.8798840045928955,
+        "overall_assessment": "mild_issues",
+        "summary": "Frame is Mid-backswing (classifier confidence 0.88). Most joint measures sit inside typical pro ranges; only mild deviations are present (a slightly high trail-elbow and a mild shaft tilt estimated from the lead-arm proxy). Because the shaft proxy_confidence is 0.42, shaft-related observations are estimated from arm pose and should be verified with feel/drills or a follow-up capture.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Favor torso rotation over lifting with the arms \u2014 make controlled half\u2011swings where the feeling is the hands stay low and the shoulders do the work; use a towel tucked under the trail armpit during backswings so it stays in place (prevents lifting and encourages a proper plane).",
+          "Maintain lead-arm width/extension through the backswing \u2014 practice with a pool noodle slid over the lead arm so the arm cannot fold and the swing arc stays wide (this helps avoid a collapsing lead arm).",
+          "If you sense the club is too shallow or too steep at P3, use a glove tucked under the lead armpit in practice swings so it naturally releases as the shoulder turn elevates the lead arm (this promotes the correct plane rather than forcing arm lift).",
+          "Note: the mild shaft orientation is estimated from the lead-arm proxy (confidence ~0.42), so use the above drills and your feel to confirm plane changes rather than relying solely on this single-frame shaft estimate."
+        ],
+        "sources_used": [
+          "p3_midbackswing_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 4,
+      "frame_filename": "clip0704_event4.jpg",
+      "true_label": "Top",
+      "report": {
+        "p_position": "Top",
+        "classifier_confidence": 0.9852848649024963,
+        "overall_assessment": "mild_issues",
+        "summary": "This frame at the Top is generally controlled with joint angles falling within typical pro ranges; the classifier is confident in the Top prediction. There are no notable (high-severity) deviations detected in this frame, though the overall severity is mild \u2014 monitor carry-over from the earlier mild mid\u2011backswing findings (possible connection to how the trail arm/folding behaved). Shaft-based feedback is omitted because the shaft proxy is unreliable for this frame.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Check trail-elbow connection: practice backswings with a glove or headcover tucked under the trail armpit to keep the trail elbow \u201cpocketed\u201d and prevent the elbow from flying out (helps avoid a flying trail elbow and a too-open outside path).",
+          "Encourage actual hip rotation, not just upper-body tilt: do slow backswings with a hand on the trail hip and feel the hip rotate backward (not slide) so the spine tilts away from the target at the top\u2014this addresses tendencies toward reverse spine angle. ",
+          "Control lead-arm and grip to limit excessive range: on practice swings stop the backswing when the lead arm is parallel to the ground (this gives a repeatable depth and prevents overextending the arms). Also reinforce firmer grip pressure in the last three fingers of the lead hand to reduce club sliding in the fingers.",
+          "Given prior mild mid-backswing issues, combine the above drills in slow-motion 3/4 swings to re-establish a connected trail arm and a rotation-based coil; if the glove-under-armpit drill causes the club to feel too short, focus first on the hip-rotation drill to create space for a connected arm fold."
+        ],
+        "sources_used": [
+          "p4_top_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 5,
+      "frame_filename": "clip0704_event5.jpg",
+      "true_label": "Mid-downswing",
+      "report": {
+        "p_position": "Mid-downswing",
+        "classifier_confidence": 0.9983036518096924,
+        "overall_assessment": "mild_issues",
+        "summary": "Classified as Mid-downswing (confidence 0.998). The frame shows only mild deviations \u2014 a slight reduction in hip clearance and a mild shoulder-line offset; the shaft direction is estimated from the lead-arm pose (proxy_confidence 0.42), so any shaft-related cues are tentative. These mild mid-downswing readings are consistent with the earlier mild issues in the mid-backswing and Top and likely reflect a small sequencing/clearance tendency rather than a major technical fault.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Initiate the downswing with the lead hip \"bump\" so the lower body leads the sequence rather than the shoulders. Drill from the retrieved corpus: drop a pool ball behind the trail knee and feel the trail knee move toward the ball before the arms begin \u2014 this helps prevent an outside-to-in (over-the-top) arrival.",
+          "Practice the \"clear the lead hip\" drill using an alignment stick placed next to the lead hip; rotate the lead hip to touch the stick without sliding. This promotes hip clearance and better separation between lower and upper body (addresses blocked-rotation tendencies).",
+          "Use the wall/chair drill to check for early extension: make controlled downswings with your back lightly against a wall or chair so any forward hip thrust is immediately felt and corrected. Focus on rotating around a fixed axis rather than driving the hips toward the ball."
+        ],
+        "sources_used": [
+          "p5_middownswing_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 6,
+      "frame_filename": "clip0704_event6.jpg",
+      "true_label": "Impact",
+      "report": {
+        "p_position": "Impact",
+        "classifier_confidence": 0.9991351962089539,
+        "overall_assessment": "good",
+        "summary": "The classifier predicts Impact with very high confidence. All measured joints and the estimated shaft angle fall within typical pro ranges, indicating a technically sound impact position; earlier mild issues in the swing do not appear to have propagated to impact. Continue reinforcing the current posture and weight transfer that produced this reliable impact shape.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Reinforce weight transfer to the lead side with the step-through drill (make impact rehearsals where you step through to the target) \u2014 this maintains the proper lead-side pressure noted in the retrieved impact guidance (p6_impact_faults.md).",
+          "Keep checking the lead wrist/impact shape with slow-motion impact rehearsals in front of a mirror or using an alignment rod against the lead wrist to confirm a neutral-to-slightly-bowed wrist at impact (mirror slow\u2011motion impact drill from p6_impact_faults.md)."
+        ],
+        "sources_used": [
+          "p6_impact_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 7,
+      "frame_filename": "clip0704_event7.jpg",
+      "true_label": "Mid-followthrough",
+      "report": {
+        "p_position": "Mid-followthrough",
+        "classifier_confidence": 0.999862790107727,
+        "overall_assessment": "good",
+        "summary": "Frame classified as Mid-followthrough with very high confidence. All measured joint and shaft metrics fall inside typical pro ranges, indicating a technically sound finish with good rotation and extension through the ball. Earlier mild issues reported in this swing do not appear to persist into this P7 frame (impact was previously good).",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Reinforce the full extension through P7 \u2014 continue the cue \u201cchase the ball with the club head\u201d and use full practice swings without a ball to maintain that feel (from p7_midfollowthrough_faults.md).",
+          "Maintain and trust the natural forearm rotation through the finish \u2014 occasionally check release with the water\u2011bottle\u2011under\u2011lead\u2011armpit drill so the trail forearm can cross over the lead forearm by P7 (from p7_midfollowthrough_faults.md)."
+        ],
+        "sources_used": [
+          "p7_midfollowthrough_faults.md"
+        ]
+      }
+    },
+    {
+      "event_idx": 8,
+      "frame_filename": "clip0704_event8.jpg",
+      "true_label": "Finish",
+      "report": {
+        "p_position": "Finish",
+        "classifier_confidence": 0.9999635219573975,
+        "overall_assessment": "good",
+        "summary": "High-confidence classification: Finish. The frame shows a balanced, well-rotated finish \u2014 spine, hips, shoulders, knees and elbows are all within typical pro ranges and no notable deviations were detected. Despite mild issues earlier in the swing, those did not appear to carry through to the finish; keep reinforcing this stable, full turn.",
+        "key_deviations": [],
+        "coaching_recommendations": [
+          "Reinforce the full, balanced finish with no-ball practice swings: focus on reaching a high, wrapped finish behind the lead shoulder and think of the target rather than the ball (drill from p8_finish_faults.md: \"Think of the target, not the ball\" / \"make practice swings with no ball, focusing entirely on reaching a high, balanced finish\").",
+          "Continue balance and stability work: do controlled swings at 70\u201380% speed and practice holding the finish for three seconds to maintain postural control (drill from p8_finish_faults.md: \"practice controlled swings at 70-80% speed\" / \"hold the finish position for three full seconds\")."
+        ],
+        "sources_used": [
+          "p8_finish_faults.md"
+        ]
+      }
+    }
+  ],
+  "synthesis": {
+    "clip_id": 704,
+    "overall_assessment": "mild_issues",
+    "headline_summary": "Technically sound swing with a very solid impact and balanced finish; most deviations are mild and confined to the mid-swing. There's a small sequencing/clearance tendency through the backswing-to-downswing (P3\u2013P5) that could create occasional path/shoulder-offset effects. Focus one practice drill on starting the downswing with the hips and briefly reinforce the current impact/finish habits.",
+    "priority_issues": [
+      {
+        "issue_name": "mild sequencing / limited hip clearance (downswing)",
+        "affected_positions": [
+          "Mid-backswing",
+          "Top",
+          "Mid-downswing"
+        ],
+        "severity": "mild",
+        "explanation": "Mild signs across P3\u2013P5: a slightly high trail-elbow at mid-backswing and top (P3\u2013P4) combined with a small reduction in hip clearance and a mild shoulder-line offset at mid-downswing (P5). Together these indicate a slight tendency for the lower body to clear a bit late relative to the arms, which can encourage a shallower/over-the-top arrival or small path bias.",
+        "primary_recommendation": "Practice the lead-hip 'bump' / sequencing drill: drop a pool ball behind the trail knee and feel the trail knee move toward the ball before the arms begin (as recommended in P5). Repeat slowly until the lower-body lead is felt; follow with the alignment-stick hip-clearance drill and the wall/chair early-extension check from the mid-downswing notes if helpful."
+      },
+      {
+        "issue_name": "reinforce reliable impact and finish (weight transfer & lead-wrist shape)",
+        "affected_positions": [
+          "Impact",
+          "Mid-followthrough",
+          "Finish"
+        ],
+        "severity": "mild",
+        "explanation": "Impact, mid-followthrough and finish frames are consistently within pro ranges with good rotation and extension \u2014 this is a strength to preserve that supports consistent ball contact and flight.",
+        "primary_recommendation": "Continue the step-through drill to reinforce lead-side weight transfer (from the Impact frame guidance) and occasionally rehearse slow-motion mirror impact reps or use an alignment rod at the lead wrist to check the neutral-to-slightly-bowed impact shape."
+      }
+    ],
+    "per_position_summary": {
+      "Address": "Setup is within typical pro ranges with a very slightly straighter trail (right) knee; otherwise posture and spine tilt are appropriate.",
+      "Toe-up": "Shaft/face estimation shows a mild hip-line tilt outside the p25\u2013p75 band; shaft orientation was estimated from the lead-arm proxy and should be visually confirmed.",
+      "Mid-backswing": "Most measures are typical with a mild high trail-elbow and an estimated mild shaft tilt (shaft observations are proxy-based and should be verified).",
+      "Top": "Controlled top position with generally good joint angles; mild tendency for the trail elbow to need a more connected 'pocket'\u2014no notable deviations at the top.",
+      "Mid-downswing": "Shows a slight reduction in hip clearance and a mild shoulder-line offset consistent with earlier mid-swing tendencies (suggesting a small sequencing/clearance issue).",
+      "Impact": "Impact position is technically sound with joints and estimated shaft angle within typical pro ranges and good weight transfer to the lead side.",
+      "Mid-followthrough": "Balanced mid-followthrough with good rotation and extension; metrics fall within pro ranges.",
+      "Finish": "Balanced, well-rotated finish with all major joints inside typical pro ranges and no notable deviations."
+    },
+    "propagation_observations": [
+      "A mild trail-elbow/high fold observed at Mid-backswing (P3) and Top (P4) coincides with a small reduction in hip clearance at Mid-downswing (P5), suggesting the slightly disconnected trail-arm timing may be associated with the later sequencing/clearance tendency.",
+      "Despite mid-swing milds, impact (P6) and the subsequent follow-through/finish (P7\u2013P8) are preserved, so the mid-swing tendencies are not currently degrading the delivered impact shape."
+    ],
+    "classifier_disagreements": []
+  },
+  "beginner_report": {
+    "clip_id": 704,
+    "encouragement": "You already have a very solid impact and a balanced, well-rotated finish \u2014 that\u2019s a major strength that helps produce consistent contact and ball flight. Your setup and top of the backswing are controlled, so you have a reliable base to build from.",
+    "top_3_takeaways": [
+      {
+        "title": "Start with your hips",
+        "feel_cue": "Feel your hips gently push your body toward the target first, like nudging off a small step, before your hands begin down.",
+        "simple_drill": "Place a small ball or object behind your back knee and make slow practice swings, focusing on nudging the object with your hips before your hands move down."
+      },
+      {
+        "title": "Maintain strong impact",
+        "feel_cue": "Feel slightly more weight into your front leg at the moment of contact and hold that posture through the strike, like a steady landing.",
+        "simple_drill": "Do the step-through drill: take slow swings and finish by stepping your back foot through so your weight ends on the front leg, checking the feel of a stable lead wrist."
+      },
+      {
+        "title": "Keep back arm connected",
+        "feel_cue": "Feel your back arm stay close to your body and fold smoothly into a snug pocket at the top instead of lifting away.",
+        "simple_drill": "At home, make slow half-backswings and pause at the top while keeping a folded towel under your back arm or feeling the elbow stay near your side."
+      }
+    ],
+    "one_sentence_summary": "A technically sound swing with reliable impact and a balanced finish; focus on starting the downswing with your hips and keeping the back arm more connected."
+  },
+  "classifier_disagreements": [],
+  "wall_time_sec": 305.7
+}
